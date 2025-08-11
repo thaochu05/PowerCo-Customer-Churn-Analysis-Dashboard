@@ -1,6 +1,7 @@
 # ⚡ BCG Power Company Churn Analysis Dashboard
 
 A comprehensive Streamlit dashboard for analyzing customer churn in the power company industry, built with a professional power company color theme.
+link at https://powerco-customer-churn-model-analysis.streamlit.app/
 
 ## 🚀 Features
 
