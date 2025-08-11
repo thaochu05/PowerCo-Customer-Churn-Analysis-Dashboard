@@ -11,16 +11,6 @@ A comprehensive Streamlit dashboard for analyzing customer churn in the power co
 - **Prediction Tool**: Interactive churn prediction interface
 - **Data Explorer**: Interactive data exploration tools
 
-## 🎨 Design Theme
-
-The dashboard features a professional power company color scheme:
-- **Primary**: Dark blue (#1e3a8a)
-- **Secondary**: Blue (#3b82f6)
-- **Accent**: Orange (#f59e0b)
-- **Success**: Green (#10b981)
-- **Warning**: Orange (#f59e0b)
-- **Danger**: Red (#ef4444)
-
 ## 📋 Prerequisites
 
 - Python 3.8 or higher
@@ -85,26 +75,6 @@ The dashboard features a professional power company color scheme:
 - Statistical summaries
 - Missing value analysis
 
-## 🔧 Customization
-
-### Adding New Features
-1. Modify the `main()` function to add new pages
-2. Create new page functions following the existing pattern
-3. Update the sidebar navigation
-
-### Changing Colors
-Edit the `COLORS` dictionary in `app.py`:
-```python
-COLORS = {
-    'primary': '#1e3a8a',      # Dark blue
-    'secondary': '#3b82f6',    # Blue
-    'accent': '#f59e0b',       # Orange
-    # ... add more colors
-}
-```
-
-### Customizing CSS
-Modify the CSS styles in the `st.markdown()` section at the top of `app.py`.
 
 ## 📈 Key Insights from the Analysis
 
@@ -145,14 +115,3 @@ You can deploy to Streamlit Cloud:
 - Data is cached for optimal performance
 - The dashboard is responsive and works on different screen sizes
 
-## 🤝 Contributing
-
-Feel free to enhance the dashboard by:
-- Adding new visualizations
-- Improving the prediction tool
-- Adding more interactive features
-- Enhancing the design theme
-
-## 📄 License
-
-This project is part of the BCG Forage program analysis.
